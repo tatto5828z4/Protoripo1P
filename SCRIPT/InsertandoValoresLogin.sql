@@ -1,0 +1,1 @@
+insert into login values ('1', 'Jorge', 'condominio');

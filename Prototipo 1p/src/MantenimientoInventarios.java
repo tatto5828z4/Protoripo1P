@@ -242,7 +242,7 @@ public class MantenimientoInventarios extends javax.swing.JInternalFrame {
         try
         {
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/Prototipo1P","root","jorgito5828H");
-            PreparedStatement pst = cn.prepareStatement("select * from productos where ID_Inventario = ?");
+            PreparedStatement pst = cn.prepareStatement("select * from Inventario where ID_Inventario = ?");
             pst.setString(1, txt_Buscar.getText().trim());
 
             ResultSet rs = pst.executeQuery();

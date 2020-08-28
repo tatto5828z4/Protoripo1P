@@ -91,7 +91,6 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="lbl_estatuscarreras" min="-2" pref="27" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="87" pref="87" max="-2" attributes="0"/>
